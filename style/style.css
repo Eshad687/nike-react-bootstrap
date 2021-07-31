@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
 .bg-color{
     background-color:  #FFF9F4;
     ;
@@ -11,3 +12,38 @@
 .bot-image{
     height: 100px;
 }
+
+
+.last-text::after, .last-text:hover::before{
+    content: '';
+    display: block;
+    
+    background-color: magenta;
+    height: 2px;
+    width: 10%;
+    position: relative;
+    left: 45%;
+  
+   
+    
+}
+    
+
+blockquote::before{
+content: open-quote;
+color: magenta;
+font-size: 3em;
+font-family: 'Style Script', cursive;
+position: relative;
+    top: 15px;
+
+}
+blockquote::after{
+    content: close-quote;
+    color: magenta;
+    font-size: 3em;
+    font-family: 'Style Script', cursive;
+    position: relative;
+    top: 15px;
+    }
+    
